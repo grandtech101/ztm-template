@@ -1,14 +1,18 @@
 <template>
-  <div class="flex h-screen bg-orange-100 h-[100vh] align-middle text-black text-center">
-    <div class="m-auto">
-      <h1 class="text-5xl font-bold">LunchBreakHUB</h1>
-     <p class="mt-5">Have Lunch with Stranger Online.</p>
-     <div id='right'>
-    <img src="https://images.pexels.com/photos/5490391/pexels-photo-5490391.jpeg?" class='mr-20'  width="300" height="400" style="vertical-align:middle;margin:5px 100px"/>
-  </div>
-  </div>
+  <div id="header" class="bg-[url('/hero-bg.jpg')] px-20">
+    <div id="menu" class="grid grid-cols-2 py-5">
+    <div id="menu-left">
+    <img src="logo.png" class="w-[150px]" alt="" />
     </div>
 
-
-    
+    <div id="menu-right">
+        <ul class="grid grid-cols-4 text-lg font-roboto text-white pt-5">
+        <li>About Us</li>
+        <li>Menu</li>
+        <li>Locations</li>
+        <li>Contacts</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </template>
