@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'ztm-template',
+    title: 'store',
     htmlAttrs: {
       lang: 'en'
     },
@@ -15,7 +15,6 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
@@ -31,14 +30,39 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/tailwindcss'
+    // https://go.nuxtjs.dev/tailwindcss
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/firebase'
   ],
+
+  firebase: {
+    config: {
+      apiKey: "AIzaSyDnN_Y67NnOydqJgM7IoRtoJsEYCNVP59g",
+      authDomain: "houzburger.firebaseapp.com",
+      projectId: "houzburger",
+      storageBucket: "houzburger.appspot.com",
+      messagingSenderId: "221336248796",
+      appId: "1:221336248796:web:63fc2e3345e565da566f19",
+      measurementId: "G-61HG1ML02P"
+    },
+    services: {
+      auth: {
+        persistence: 'local', // default
+        initialize: {
+          onAuthStateChangedAction: 'onAuthStateChangedAction',
+          subscribeManually: false
+        },
+        ssr: false, // default
+      }
+    }
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
@@ -48,5 +72,19 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  googleFonts: {
+    families: {
+      Roboto: [100, 300, 400, 500, 700, 900],
+      Oswald: true,
+      'Lilita+One': true,
+      'Josefin+Sans': true,
+      Lato: [100, 300],
+      Raleway: {
+        wght: [100, 400],
+        ital: [100]
+      },
+    }
   }
 }
