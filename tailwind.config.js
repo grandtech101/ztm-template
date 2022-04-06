@@ -6,6 +6,7 @@ module.exports = {
       lilita: ['"Lilita One"', 'sans-serif'],
       roboto: ['Roboto', 'sans-serif'],
     },
+    
     extend: {},
   },
   plugins: [],
