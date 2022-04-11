@@ -8,7 +8,7 @@
       {{ description }}
     </p>
     <span
-      class="bg-amber-800 text-yellow-400 text-bold text-xl font-oswald ml-5 rounded rounded-lg px-5 py-2"
+      class="bg-amber-800 text-yellow-400 text-bold text-xl font-oswald ml-5 rounded-lg px-5 py-2"
     >
       RM {{ price }}
     </span>
