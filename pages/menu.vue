@@ -7,11 +7,12 @@
         </div>
 
         <div id="menu-right">
-          <ul class="grid grid-cols-4 text-2xl font-oswald text-white pt-5">
+          <ul class="grid grid-cols-5 text-2xl font-oswald text-white pt-5">
             <li>About Us</li>
-            <li>Our Menu</li>
+            <NuxtLink to="/menu">Our Menu</NuxtLink>
             <li>Locations</li>
             <li>Contacts</li>
+            <NuxtLink to="/cart"> Cart ( {{ $store.getters.totalItems }} ) </NuxtLink>
           </ul>
         </div>
       </div>
