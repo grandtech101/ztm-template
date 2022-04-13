@@ -56,7 +56,7 @@ export default {
       auth: {
         persistence: 'local', // default
         initialize: {
-          onAuthStateChangedAction: 'onAuthStateChangedAction',
+          //onAuthStateChangedAction: 'onAuthStateChangedAction',
           subscribeManually: false
         },
         ssr: false, // default
