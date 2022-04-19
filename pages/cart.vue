@@ -90,7 +90,7 @@ export default {
       this.$store.commit('removeItem', name);
     },
     submitOrder() {
-      this.$axios.get('/.netlify/functions/email', {
+      this.$axios.post('/.netlify/functions/email', {
         email: document.getElementById('email').value,
         orders: this.$store.state.orders,
       });
