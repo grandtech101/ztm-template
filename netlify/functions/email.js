@@ -9,8 +9,9 @@ exports.handler = async function (event, context) {
     let emailContent = "We have received a new order: \n\n";
 
     orders.forEach((order) => {
-        emailContent = emailContent +
-            `${order.name} - ${order.quantity} pcs - ${order.price * order.quantity}\n`;
+        emailContent =
+        emailContent +
+        `${order.name} - ${order.quantity} pcs - ${order.price * order.quantity}\n`;
         total = total + order.price * order.quantity;
     });
 
