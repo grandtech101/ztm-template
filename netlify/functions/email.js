@@ -20,7 +20,7 @@ exports.handler = async function (event, context) {
         from: 'grandtechsolution101@gmail.com',
         to: customerEmail,
         subject: "New Order Received",
-        text: emailContent
+        text: emailContent,
     };
 
     const mailer = nodemailer.createTransport({
