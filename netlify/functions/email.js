@@ -4,7 +4,7 @@ exports.handler = async function (event, context) {
     const body = JSON.parse(event.body);
     const customerEmail = body.email;
     const orders = body.orders;
-
+    
     let total = 0;
     let emailContent = "We have received a new order: \n\n";
 
