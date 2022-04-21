@@ -98,6 +98,11 @@ export default {
         .then(function (response) {
           alert('Your order has been submitted');
         });
+
+      this.$axios.post('/.netlify/functions/db', {
+        email: document.getElementById('email').value,
+        orders: this.$store.state.orders,
+      });
     },
   },
 };
