@@ -30,8 +30,8 @@ exports.handler = async function (event, context) {
         secure: true,
         auth: {
             user: 'apikey',
-            pass: process.env.sendgridApiKey
-        }
+            pass: process.env.sendgridApiKey,
+        },
     });
 
     try {
