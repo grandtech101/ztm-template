@@ -1,0 +1,47 @@
+{
+  "burgers": [
+    {
+      "name": "Crispy Chicken",
+      "image":"crispy-chicken.jpg",
+      "description": "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
+      "price": 11.99
+    },
+    {
+      "name": "Ultimate Bacon",
+      "image":"ultimate-bacon.jpg",
+      "description": "House beef patty, cheddar cheese, smokey bacon, onion, mustard",
+      "price": 14.99
+    },
+    {
+      "name": "Baa-Baa Black Sheep",
+      "image":"baa-baa.jpg",
+      "description": "Bacon, lettuce, tomato, onion, mayo, pickles, coleslaw",
+      "price": 15.75
+    },
+    {
+      "name": "Double Burger",
+      "image":"double-burger.jpg",
+      "description": "2 beef patties, cheddar cheese, mustard, pickles, tomatoes",
+      "price": 15.35
+    },
+    {
+      "name": "Messy Beauty",
+      "image":"double-burger.jpg",
+      "description": "Beef patty topped with honey mustard and a sunny side up egg.",
+      "price": 23.00
+    },
+    {
+      "name": "Rosy Business",
+      "image":"double-burger.jpg",
+      "description": "Beef patty topped with a hash brown covered with rose Syrup.",
+      "price": 21.00
+    },
+    {
+      "name": "Old Fashion",
+      "image":"double-burger.jpg",
+      "description": "Classic cheeseburger with a grilled beef / chicken patty.",
+      "price": 18.00
+    }
+  ]
+}
+
