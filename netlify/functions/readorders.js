@@ -12,7 +12,7 @@ exports.handler = async function(event, context) {
     }
 
     const db =getFirestore(app);
-    const orders = await db.collection("orders").get();
+    const orders = await db.collection("order").get();
 
     const results = orders.docs.map((doc) => {
         return {
