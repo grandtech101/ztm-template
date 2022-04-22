@@ -51,7 +51,7 @@ export default {
     messagingSenderId: "56500820268",
     appId: "1:56500820268:web:5038907d87462db793b489",
     measurementId: "G-62BQDXR3X4"
-
+        
     },
     services: {
       auth: {
