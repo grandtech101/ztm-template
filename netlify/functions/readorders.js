@@ -16,9 +16,6 @@ exports.handler = async function(event, context) {
         };
     }
         
-
-
-
     let app;
     if(admin.apps.length === 0) {
         app = initializeApp({
