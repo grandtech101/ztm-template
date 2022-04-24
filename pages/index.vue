@@ -1,53 +1,56 @@
 <template>
   <div>
-    <div id="header" class="bg-[url('/hero-bg.jpg')] px-20">
-      <div id="menu" class="grid grid-cols-2 py-5">
+    <div id="header" class="bg-[url('/bg-hero-5.jpg')] py-5 px-10">
+      <div id="menu" class="grid grid-cols-2">
         <div id="menu-left">
-          <img src="logo.png" class="w-[150px]" alt="" />
-        </div>
+          <h1 class="font-lilita text-6xl text-white">FieldSpot</h1>
+          </div>
 
         <div id="menu-right">
-          <ul class="grid grid-cols-4 text-2xl font-oswald text-white pt-5">
-            <li>About Us</li>
-            <li>Our Menu</li>
-            <li>Locations</li>
-            <li>Contacts</li>
+          <ul class="grid grid-cols-5 text-2xl font-oswald text-white pt-5">
+            <li>Home</li>
+            <li>Features</li>
+            <li>Solutions</li>
+            <li>Pricing</li>
+            <li>Contact Us</li>
           </ul>
         </div>
       </div>
 
-      <div class="grid grid-cols-2 pb-30 pt-10">
-        <img src="hero-burger.png" class="pr-8 mt-10" alt="" />
+      <div class="grid grid-cols-2">
+        <img src="front_mobile-removebg.png" class="absolute left-2" alt="" />
 
-        <div class="text-center pt-30">
-          <h1 class="text-8xl text-white text-center font-lilita uppercase py-1">
-            Classic Burger
+        <div class="col-span-2 text-right font-bold my-10">
+          <h1 class="text-6xl text-white  font-oswald py-1">
+            Site Application</br> Tools
           </h1>
-          <h2 class="text-6xl text-white text-center font-lilita uppercase my-5">
-            With Onion
-          </h2>
-          <p class="text-2xl text-white font-roboto font-light text-center">
-            Our signature burger now comes with onion and cheese . You can customize it to
-            your likings.Freshly made to order,all in a brioche style bun !
+          <p class="text-2xl text-white font-roboto font-light text-right">
+            FieldSpot is an easy-to-use,web-based tool
+            for building,</br> organizing, and managing field data.
+            Managers can</br>assign tasks to members, track who's onsite at</br> anytime,
+            and get all the reports they need.
           </p>
+          <button><img src="/appstore.png" alt="" class="mt-5 h-[50px]"></button>
+          <button><img src="/googleplay.png" alt="" class="h-[50px]"></button>
         </div>
       </div>
     </div>
-    <div id="section-1" class="text-center bg-[url('/three-burgers.jpg')] pb-96 bg-cover">
-      <h1 class="text-6xl uppercase font-oswald text-center pt-20 px-24">
-        The burger taste better when you eat with family
+    <div id="section-1" class="grid grid-cols-2">
+      <h1 class="text-6xl font-arial text-center pt-20 px-24">
+        FieldSpot Mobile App
       </h1>
+      <img src="workers-removebg.png" alt="" />
       <p
-        class="font-roboto italic font-light text-grey-500 text-center text-lg py-6 px-28"
+        class="font-roboto font-light text-grey-500 text-center text-lg px-24"
       >
-        Spend quality time with your family and eat and affordable,nutritious and
-        delicious meal together. not all burgers are fast food. All our burgers are
-        handmade to orders for you and your family members
+        FieldSpot uses smartphones and tablets as tools for employees in the field.
+        The platform provides a unified business experience across different products,
+        divisions of company.
       </p>
-      <button class="font-oswald uppercase bg-red-500 text-white text-center py-3 px-8">
-        Explore Full Menu
-      </button>
-    </div>
+      </div>
+      <div class="text-center">
+      <button class="uppercase bg-orange-500 text-white text-lg py-2 px-8 mt-5 mb-5">View all features</button>
+      </div>
     <div id="section2" class="grid grid-cols-3 text-center px-20 py-10 bg-yellow-500 gap-10">
         <div>
           <svg
@@ -61,11 +64,10 @@
           <path
           stroke-linecap="round"
           stroke-linejoin="round"
-          d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
-          />
-          </svg>
-          <h2 class="font-medium font-oswald tex-2xl uppercase py-5">Original recipes</h2>
-          <p class="font-light">We use our own secret recipes and only the best ingredients to make our burgers.Starting from patties, sauces and even buns.</p>
+          d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+</svg>
+          <h2 class="font-medium font-oswald tex-2xl uppercase py-5">Real-Time Chat</h2>
+          <p class="font-light">Leave the logistics of scheduling interviews, tracking candidates, and managing all your conversations in one place behind.</p>
         </div>
         <div>
           <svg
@@ -79,10 +81,10 @@
           <path
           stroke-linecap="round"
           stroke-linejoin="round"
-          d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
-          </svg>
-          <h2 class="font-medium font-oswald tex-2xl uppercase py-5">Quality Foods</h2>
-          <p class="font-light">We purchase our ingredients from the best suppliers daily,to ensure the freshest quality of our burgers</p>
+          d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+</svg>
+          <h2 class="font-medium font-oswald tex-2xl uppercase py-5">Task Manager</h2>
+          <p class="font-light">Organize your tasks in one list.Add notes and details of your task,set a start and deadline date for the task.</p>
           </div>
         <div>
           <svg
@@ -91,86 +93,108 @@
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          stroke-width="2">
+          stroke-width="2"
+          >
           <path
           stroke-linecap="round"
           stroke-linejoin="round"
-          d="M13 10V3L4 14h7v7l9-11h-7z" />
-          </svg>
-          <h2 class="font-medium font-oswald tex-2xl uppercase py-5">Fastest Delivery</h2>
-          <p class="font-light">Burgers are best served while it's hot.We deliver to your door with our speedy delivery partners from the nearest outlet</p>
+          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+          <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
+          <h2 class="font-medium font-oswald tex-2xl uppercase py-5">Location Tracker</h2>
+          <p class="font-light">When your employees need to leave an area or arrive at a specific time, they can send a status update and it is conveniently updated in the manager's dashboard.</p>
           </div>
       </div>
         <div id="section-3" class="font-oswald">
       <h1
         class="text-6xl text-center font-oswald text-red-500 uppercase font-medium py-10"
       >
-        Our Crazy Burger
+        Six (6) Wheel Department Of Business
       </h1>
       <p class="text-center px-20 font-light text-gray-500 py-5">
-        Whether you are looking for the classic,our specialites or just wraps, salad and
-        fries.We always have something that rewards your tastebud
+        Admin,HR,Finance,Sales,Marketing,Operations -We believe that data is the answer to running an efficient department. Our apps simplify the process of acquiring information and deliver this data in real-time. We know that if you're spending less time manual tasks, your team can focus on what matters most.Our in-house team of mobile developers is here to help you build a personalized mobile app for each department of your business.
       </p>
       <div class="grid grid-cols-2 px-40 gap-5">
         <div id="left-item-columns">
           <Item
-          image="crispy-chicken.jpg"
-          title="Crispy Chicken"
-          description="chicken breast,chilli sauce, tomatoes,pickles,coleslaw"
-          price="11.99" />
+          image="admin-1.jpg"
+          title="Admin"
+          description="Document Control,Annual Schedule,Meetings,Reports,Letter templates"
+          price="20.00" />
           <Item
-          image="baa-baa.jpg"
-          title="baa-baa blacksheep"
-          description="beef,chilli sauce, tomatoes,pickles,coleslaw,Cheese"
-          price="13.99" />
+          image="hr-1.png"
+          title="Human Resource"
+          description="Talent Management,Surveys,HR templates,regulations"
+          price="20.00" />
+          <Item
+          image="finance-1.jpg"
+          title="Finance"
+          description="Financial Control,expenses and costing management"
+          price="37.99" />
         </div>
         <div id="right-item-columns">
           <Item
-          image="ultimate-bacon.jpg"
-          title="The Ultimate Bacon"
-          description="Bacon,chilli sauce, tomatoes,pickles,coleslaw,another bacon"
-          price="20.99" />
+          image="sales-3.png"
+          title="Sales"
+          description="Sales Converter,Sales tracker,Esales-script, sales kit"
+          price="37.99" />
           <item
-          image="double-burger.jpg"
-          title="Double Beef Burger"
-          description="Beef,chilli sauce, tomatoes,pickles,coleslaw,onions"
-          price="15.99" />
+          image="marketing-1.png"
+          title="Marketing"
+          description="Integrating digital marketing tools, marketing strategy"
+          price="30.99" />
+          <item
+          image="logistic.png"
+          title="Operations"
+          description="logistics,warehouse management,strategic planning"
+          price="37.99" />
           </div>
         </div>
-
+        <div class="text-center text-4xl font-oswald">
+          <h1>This year we are offering discounted prices on our application to early startups from all over states. Choose any options below:</h1>
+          </div>
         <div class="grid grid-cols-12 font oswald uppercase text-4xl text-yellow-800 px-40 gap-5">
-          <div class="col-span-5 bg-cover bg-center bg-[url('/fries-bg-1.jpg')] pl-20 pr-25 pb-10 pt-10 text-center">
-            <h4>Get your</br>free</h4>
-            <h4>Cheese </br> Fries</h4>
+          <div class="col-span-6 px-20 py-10 text-center">
+             <img src="all-in.png" alt="" />
+            <h4>Option A</br> (FREE 5 USERS)</br>ALL-IN MODULE SET</h4>
+            <h4>RM500 PER MONTH ONLY</h4>
             <button class="uppercase bg-red-500 text-white text-lg py-3 px-8 mt-5">Claim now</button>
           </div>
 
-          <div class="col-span-7 bg-cover bg-center bg-[url('/burger-bg-1.jpg')]  text-center pl-40 pb-10 pt-10">
-            <h4>Crispy </br> Chicken</h4>
-            <h4>Burger </br>is back!</h4>
+          <div class="col-span-6 text-center px-20 py-10">
+            <img src="option-b.jpg" class="mb-8" alt="" />
+            <h4>Option B </br>(FREE 5 USERS)</br> choose 2 modules</h4>
+            <h4>RM250 PER MONTH ONLY</h4>
             <button class="uppercase bg-red-500 text-white text-lg py-3 px-8 mt-5">Claim now</button>
           </div>
         </div>
-        <div class="grid grid-cols-3 px-40 mt-5 gap-5">
-          <img src="offer-1.jpg" alt=""><img src="offer-2.jpg" alt=""><img src="offer-3.jpg" alt="">
-        </div>
-        <div id="section-4" class="px-20 bg-gray-100 py-20">
-          <div class="grid grid-cols-2">
-            <img src="about.png" alt="" class="pl-20">
-            <h3 class="font oswald text-5xl uppercase pl-20 pr-4 pt-20 leading-snug text-center">Nothing brings people together like a </br> good burger</h3>
-            </div>
-            <p class="text-lg text-gray-500 mt-10">That's the philosophy that we always believe in. We're a family-owned and operated business, and we're proud to be part of the community.We do our best to make sure that everyone's happy and having a good time.</p>
-            <p class="text-lg text-gray-500 mt-10">Burgers are what brought us together and what keeps us together.It's something that you can't put a price tag on. More importantlt,we are interested in people.It's not just about the food.</p>
-            </div>
-
-            <div id="section-5" class="grid grid-cols-5 bg-yellow-500 text-amber-900">
+        <div id="section-4" class="grid grid-cols-5 bg-orange-600 text-amber-200">
               <div class="col-span-3 pl-20 pt-16 pb-16">
-                <h4 class="font-oswald text-5xl uppercase">Download Mobile Apps</h4>
-                <h4 class="font-oswald text-6xl uppercase">Save up to 20%</h4>
-                <p class="text-lg my-7">Bye bye long queue.Orders before and your food will be ready in a flash.Enjoy the convenience of ordering food online at any time and from any location.</p>
-                <button><img src="/appstore.png" alt="" class="h-[50px]"></button>
-                <button><img src="/googleplay.png" alt="" class="h-[50px]"></button>
+                <h4 class="font-oswald text-5xl ">Want to Customize and Integrate with Existing System?</h4>
+                <h4 class="font-oswald text-5xl ">Talk To Us</h4>
+                <h4 class="font-oswald text-5xl ">Free Consulation</h4>
+                <p class="text-lg my-7 font-oswald">Get Things Done faster. FieldSpot will save you time and money by improving efficiency across all aspects of your business.</p>
+                <td colspan="3">
+          <input
+            id="email"
+            type="email"
+            placeholder="Please Enter Your Email"
+            class="w-full border border-gray-300 text-xl mt-5 py-3 px-2"
+          />
+        </td>
+        <td colspan="2" class="text-right">
+          <button
+            class="font-oswald uppercase bg-amber-200 text-orange-600 text-xl py-3 ml-5 mt-5"
+            @click="submitOrder"
+          >
+            Submit your email
+          </button>
+        </td>
                 </div>
+
                 <div class="col-span-2">
                   <img src="/eshop.png" class="-mt-10 h-[500px] object-cover" alt="">
                   </div>
