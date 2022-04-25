@@ -176,7 +176,7 @@
                 <h4 class="font-oswald text-5xl ">Want to Customize and Integrate with Existing System?</h4>
                 <h4 class="font-oswald text-5xl ">Talk To Us</h4>
                 <h4 class="font-oswald text-5xl ">Free Consulation</h4>
-                <p class="text-lg my-7 font-oswald">Get Things Done faster. FieldSpot will save you time and money by improving efficiency across all aspects of your business.</p>
+                <p class="text-lg my-7 font-oswald">Get Things Done faster.FieldSpot will save you time and money by improving efficiency across all aspects of your business.</p>
                 <td colspan="3">
           <input
             id="email"
