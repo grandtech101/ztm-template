@@ -166,7 +166,7 @@
 
           <div class="col-span-6 text-center px-20 py-10">
             <img src="option-b.jpg" class="mb-8" alt="" />
-            <h4>Option B </br>(FREE 5 USERS)</br> choose 2 modules</h4>
+            <h4>Option B </br>(FREE 5 USERS)</br> choose any 2 modules</h4>
             <h4>RM250 PER MONTH ONLY</h4>
             <button class="uppercase bg-red-500 text-white text-lg py-3 px-8 mt-5">Claim now</button>
           </div>
