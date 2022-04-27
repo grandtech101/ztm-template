@@ -44,6 +44,7 @@ exports.handler = async function (event, context) {
         };
     }
     catch (error) {
+        console.log(process.env.sendgridApiKey);
         console.log('Error sending email', error);
           
       }
